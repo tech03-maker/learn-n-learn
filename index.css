@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: aliceblue !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(48, 196, 48);
+}
+
+.navbar-toggler i {
+  color: rgb(48, 196, 48);
+}
+
+.mother {
+  background-color: rgb(5, 61, 5);
+}
+
+.hero {
+  padding-top: 7rem;
+}
+
+.hero-left h3 {
+  font-weight: bold;
+  color: rgb(48, 196, 48);
+  font-size: 3rem;
+  /* margin-top: 9rem; */
+}
+
+.hero-left p {
+  color: rgb(48, 196, 48);
+  /* letter-spacing: 3px; */
+}
+
+.ctn {
+  background-color: rgb(48, 196, 48);
+  padding: 19px;
+  border: none;
+  color: rgb(5, 61, 5);
+  transition: ease-in 0.3s;
+}
+
+.ctn:hover {
+  font-weight: bold;
+}
+
+.hero-right img {
+  /* width: 130%; */
+  height: 100%;
+}
+
+.section2 {
+  background-color: aliceblue;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.sub_section {
+  border-right: 1px solid rgb(5, 61, 5);
+}
+
+.sub_section h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.sub_section i {
+  font-size: 23px;
+}
+
+.nav-item {
+  /* background-color: rgb(48, 196, 48); */
+  margin-top: 5px;
+  padding-left: 7px;
+}
+
+/* .nav-item .nav-link ::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+.nav-item .nav-link ::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.nav-item .nav-link:hover::before{
+    width: 100;
+} */
+
+.offcanvas-title {
+  /* background-color: rgb(5, 61, 5); */
+  color: rgb(48, 196, 48);
+  padding: 10px;
+  border-left: 3px solid rgb(48, 196, 48);
+}
+
+.nav-item .nav-link i {
+  color: rgb(53, 49, 49);
+}
+
+.ceo_div .ceo_name {
+  color: rgb(48, 196, 48);
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 5rem;
+}
+
+.ceo_right {
+  color: rgb(48, 196, 48);
+  font-size: 20px;
+  padding-top: 5rem;
+  font-size: 500;
+}
+
+.ceo_tag {
+  background-color: rgb(48, 196, 48);
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(5, 61, 5);
+}
+
+.founder {
+  background-color: rgb(48, 196, 48);
+  color: rgb(5, 61, 5);
+  padding: 2px;
+  font-size: 1rem;
+  width: 50%;
+  text-align: center;
+}
+
+.founder p {
+  /* padding-top: 9px; */
+  position: relative;
+  top: 5px;
+}
+
+.search {
+  background-color: rgba(3, 68, 94, 0.897);
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 100%;
+  border: 15px solid rgb(20, 143, 192);
+  color: white;
+}
+.calender {
+  background-color: rgb(0, 85, 0);
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 100%;
+  border: 15px solid rgba(48, 196, 48, 0.384);
+  color: white;
+}
+.certificate {
+  background-color: orangered;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 100%;
+  border: 15px solid rgba(196, 71, 25, 0.719);
+  color: white;
+}
+
+.sec1 {
+  border-radius: 10px;
+}
+
+.sec1:hover {
+  border-top: 3px solid rgb(5, 61, 5);
+}
+
+.sec1 h4 {
+  font-weight: bold;
+}
+
+.sec1 p {
+  font-size: 15px;
+  color: rgb(65, 65, 65);
+  padding: 2.5rem;
+}
+
+.sec1 button {
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s;
+  padding: 2rem;
+  font-size: 17px;
+}
+
+.sec1 button:hover {
+  text-decoration: underline;
+  transform: translateY(2px);
+}
+
+.sec1 .arrow {
+  padding-left: 3px;
+  font-size: 15px;
+}
+.contact {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7) 50%,
+      rgba(0, 0, 0, 0.7) 50%
+    ),
+    url(assets/images/istockphoto-1224309929-612x612.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.left-contact h3 {
+  font-weight: bold;
+  color: white;
+}
+
+.left-contact span {
+  border-bottom: 2px solid rgb(0, 85, 0);
+  color: white;
+}
+
+.left-contact p {
+  color: white !important;
+}
+
+.left-contact i {
+  border-radius: 10rem;
+  color: rgb(0, 85, 0);
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.right-contact form {
+  background-color: white;
+  text-align: center;
+  padding: 3rem;
+  /* border-radius: 10px; */
+  border-top: 2px solid rgb(0, 85, 0);
+  border-bottom: 2px solid rgb(0, 85, 0);
+}
+
+.right-contact input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 1rem;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  margin-top: 15px;
+}
+
+.right-contact textarea {
+  border: 1px solid grey;
+  outline: none;
+  font-size: 15px;
+}
+
+.right-contact button {
+  padding: 11px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(0, 85, 0);
+  color: white;
+}
+
+.how_it_works {
+  background-color: rgb(0, 85, 0);
+  padding: 5px;
+}
+
+.one_four {
+  border-top: 1px solid rgb(48, 196, 48);
+  border-right: 1px solid rgb(48, 196, 48);
+}
+
+.how_it_works h3 {
+  color: rgb(48, 196, 48);
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.how_it_works span {
+  color: rgb(48, 196, 48);
+  font-size: 15px;
+  /* font-weight: lighter; */
+}
+
+.how_it_works i {
+  background-color: rgb(48, 196, 48);
+  padding: 11px;
+  color: rgb(0, 85, 0);
+}
+
+.how_it_works big {
+  color: rgb(48, 196, 48);
+  font-weight: 500;
+}
+
+.how_it_works p {
+  font-size: 13px;
+  color: rgb(48, 196, 48);
+}
+
+.faq h3 {
+  font-weight: bold;
+}
+
+footer{
+  background-color: rgb(0, 85, 0);
+}
