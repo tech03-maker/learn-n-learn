@@ -327,6 +327,87 @@ body {
   font-weight: bold;
 }
 
-footer{
+footer {
   background-color: rgb(0, 85, 0);
+}
+
+.foot_1 p{
+  color: rgb(48, 196, 48);
+  font-weight: bold;
+  font-size: 20px;
+  /* padding: 1r  em; */
+}
+
+.foot-1 span{
+  color: rgb(48, 196, 48);
+  font-size: 15px;
+  display: block;
+}
+
+.foot-1 i{
+  color: rgb(0, 85, 0);
+  background-color: white;
+  padding: 7px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.newsletter input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  /* font-weight: lighter; */
+  color: grey;
+}
+
+.newsletter button{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(48, 196, 48);
+  color: rgb(0, 85, 0);
+}
+
+.foot-1 p {
+  color: rgb(48, 196, 48);
+}
+
+.foot_contact{
+  align-items: baseline;
+}
+
+.foot_contact p{
+  padding-left: 5px;
+}
+
+.foot-1 h3{
+  font-size: 20px;
+  color: rgb(48, 196, 48);
+}
+
+.foot-1 .ul{
+  list-style: none;
+}
+.foot-1 a{
+  text-decoration: none;
+}
+
+.foot-1 li{
+  color: rgb(48, 196, 48);
+  /* margin-top: 10px;. */
+  padding: 10px;
+}
+
+.foot-1 li:hover{
+  text-decoration: underline;
+}
+
+.copyright{
+  color: rgb(0, 85, 0);
+  background-color: rgb(48, 196, 48);
+  text-align: center;
+  padding: 1rem;
 }
